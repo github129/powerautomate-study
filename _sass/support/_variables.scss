@@ -36,6 +36,7 @@ $blue-000: #2c84fa !default;
 $blue-100: #2869e6 !default;
 $blue-200: #264caf !default;
 $blue-300: #183385 !default;
+$blue-lt-000: #d7e6fc !default;
 
 $green-000: #41d693 !default;
 $green-100: #11b584 !default;
@@ -53,7 +54,7 @@ $red-200: #e94c4c !default;
 $red-300: #dd2e2e !default;
 
 $body-background-color: $white !default;
-$sidebar-color: $grey-lt-000 !default;
+$sidebar-color: $blue-lt-000 !default;
 $search-background-color: $white !default;
 $table-background-color: $white !default;
 $code-background-color: $grey-lt-000 !default;
