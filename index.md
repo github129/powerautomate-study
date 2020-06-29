@@ -13,7 +13,7 @@ last_modified_date: 2020-04-27T17:54:08+0000
 Just the Docs gives your documentation a jumpstart with a responsive Jekyll theme that is easily customizable and hosted on GitHub Pages.
 {: .fs-6 .fw-300 }
 
-[Get started now](#getting-started){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } [View it on GitHub](https://github.com/pmarsceill/just-the-docs){: .btn .fs-5 .mb-4 .mb-md-0 }
+[Get started now](#getting-started){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } [View it on GitHub](https://github129.github.io/powerautomate-study/){: .btn .fs-5 .mb-4 .mb-md-0 }
 
 ---
 
@@ -73,12 +73,12 @@ Just the Docs is &copy; 2017-{{ "now" | date: "%Y" }} by [Patrick Marsceill](htt
 
 ### License
 
-Just the Docs is distributed by an [MIT license](https://github.com/pmarsceill/just-the-docs/tree/master/LICENSE.txt).
+Just the Docs is distributed by an [MIT license](https://github129.github.io/powerautomate-study//tree/master/LICENSE.txt).
 
 ### Contributing
 
 When contributing to this repository, please first discuss the change you wish to make via issue,
-email, or any other method with the owners of this repository before making a change. Read more about becoming a contributor in [our GitHub repo](https://github.com/pmarsceill/just-the-docs#contributing).
+email, or any other method with the owners of this repository before making a change. Read more about becoming a contributor in [our GitHub repo](https://github129.github.io/powerautomate-study/#contributing).
 
 #### Thank you to the contributors of Just the Docs!
 
@@ -94,4 +94,4 @@ email, or any other method with the owners of this repository before making a ch
 
 Just the Docs is committed to fostering a welcoming community.
 
-[View our Code of Conduct](https://github.com/pmarsceill/just-the-docs/tree/master/CODE_OF_CONDUCT.md) on our GitHub repository.
+[View our Code of Conduct](https://github129.github.io/powerautomate-study//tree/master/CODE_OF_CONDUCT.md) on our GitHub repository.

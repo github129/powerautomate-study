@@ -51,7 +51,7 @@ layout: table_wrappers
       {% include nav.html %}
     </nav>
     <footer class="site-footer">
-      This site uses <a href="https://github.com/pmarsceill/just-the-docs">Just the Docs</a>, a documentation theme for Jekyll.
+      Powerd by <a href="https://github129.github.io/powerautomate-study/"> Power Automate Study</a>
     </footer>
   </div>
   <div class="main" id="top">
@@ -134,17 +134,6 @@ layout: table_wrappers
                 {% if site.last_edit_timestamp and site.last_edit_time_format and page.last_modified_date %}
                   <p class="text-small text-grey-dk-000 mb-0 mr-2">
                     Page last modified: <span class="d-inline-block">{{ page.last_modified_date | date: site.last_edit_time_format }}</span>.
-                  </p>
-                {% endif %}
-                {% if
-                  site.gh_edit_link and
-                  site.gh_edit_link_text and
-                  site.gh_edit_repository and
-                  site.gh_edit_branch and
-                  site.gh_edit_view_mode
-                %}
-                  <p class="text-small text-grey-dk-000 mb-0">
-                    <a href="{{ site.gh_edit_repository }}/{{ site.gh_edit_view_mode }}/{{ site.gh_edit_branch }}/{{ page.path }}" id="edit-this-page">{{ site.gh_edit_link_text }}</a>
                   </p>
                 {% endif %}
               </div>
