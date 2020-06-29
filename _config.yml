@@ -15,8 +15,8 @@
 # in the templates via {{ site.myvariable }}.
 title: Power Automate Study
 description: Power Automate の学習サイトです。初心者から上級者まで幅広いコンテンツで学習することができます。
-baseurl: "/just-the-docs" # the subpath of your site, e.g. /blog
-url: "https://pmarsceill.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/powerautomate-study" # the subpath of your site, e.g. /blog
+url: "https://github129.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 permalink: pretty
 exclude: ["node_modules/", "*.gemspec", "*.gem", "Gemfile", "Gemfile.lock", "package.json", "package-lock.json",  "script/", "LICENSE.txt", "lib/", "bin/", "README.md", "Rakefile"]
