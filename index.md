@@ -2,96 +2,55 @@
 layout: default
 title: Home
 nav_order: 1
-description: "Just the Docs is a responsive Jekyll theme with built-in search that is easily customizable and hosted on GitHub Pages."
+description: "Power Automate Study について"
 permalink: /
-last_modified_date: 2020-04-27T17:54:08+0000
+last_modified_date: 2020-06-29T17:54:08+0000
 ---
 
-# Focus on writing good documentation
-{: .fs-9 }
+# Power Automate Study について
 
-Just the Docs gives your documentation a jumpstart with a responsive Jekyll theme that is easily customizable and hosted on GitHub Pages.
-{: .fs-6 .fw-300 }
+Microsoft の 業務プロセスの自動化サービスで Power Platform の 中の1サービスである<br/>
+**Power Automate**
+<br/>
+に関する学習サービスを提供するサイトです。
 
-[Get started now](#getting-started){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } [View it on GitHub](https://github129.github.io/powerautomate-study/){: .btn .fs-5 .mb-4 .mb-md-0 }
 
----
+## 対象者
 
-## Getting started
+- Power Automate を使ってみたいけどまだ作ったことがない方
+- Power Automate を使ってみたけど挫折した方
+- 業務を自動化して業務効率を上げたい方
+  
+etc
 
-### Dependencies
+## ゴール
 
-Just the Docs is built for [Jekyll](https://jekyllrb.com), a static site generator. View the [quick start guide](https://jekyllrb.com/docs/) for more information. Just the Docs requires no special plugins and can run on GitHub Pages' standard Jekyll compiler. The [Jekyll SEO Tag plugin](https://github.com/jekyll/jekyll-seo-tag) is included by default (no need to run any special installation) to inject SEO and open graph metadata on docs pages. For information on how to configure SEO and open graph metadata visit the [Jekyll SEO Tag usage guide](https://jekyll.github.io/jekyll-seo-tag/usage/).
+- Power Automate に関して理解することができる
+- Power Automate を利用して業務プロセスを自ら自動化することができる。
 
-### Quick start: Use as a GitHub Pages remote theme
+## 進め方
 
-1. Add Just the Docs to your Jekyll site's `_config.yml` as a [remote theme](https://blog.github.com/2017-11-29-use-any-theme-with-github-pages/)
-```yaml
-remote_theme: pmarsceill/just-the-docs
-```
-<small>You must have GitHub Pages enabled on your repo, one or more Markdown files, and a `_config.yml` file. [See an example repository](https://github.com/pmarsceill/jtd-remote)</small>
+1. Power Automate とは
+2. Power Automate を使ってみる
 
-### Local installation: Use the gem-based theme
+上記 2 つをまず実施してください。
 
-1. Install the Ruby Gem
-```bash
-$ gem install just-the-docs
-```
-```yaml
-# .. or add it to your your Jekyll site’s Gemfile
-gem "just-the-docs"
-```
-2. Add Just the Docs to your Jekyll site’s `_config.yml`
-```yaml
-theme: "just-the-docs"
-```
-3. _Optional:_ Initialize search data (creates `search-data.json`)
-```bash
-$ bundle exec just-the-docs rake search:init
-```
-3. Run you local Jekyll server
-```bash
-$ jekyll serve
-```
-```bash
-# .. or if you're using a Gemfile (bundler)
-$ bundle exec jekyll serve
-```
-4. Point your web browser to [http://localhost:4000](http://localhost:4000)
+それ以降はご自身に合わせて好きなテーマをお選びください。また、基本的に順番にテーマを行うようにテキストは作られているため、テーマによっては説明を「前テーマを参照」のように記載している可能性があります。
 
-If you're hosting your site on GitHub Pages, [set up GitHub Pages and Jekyll locally](https://help.github.com/en/articles/setting-up-your-github-pages-site-locally-with-jekyll) so that you can more easily work in your development environment.
+## 免責事項
 
-### Configure Just the Docs
+「Power Automate Study」（以下、「当サイト」とします。）における免責事項は、下記の通りです。
 
-- [See configuration options]({{ site.baseurl }}{% link docs/configuration.md %})
+### 当サイトが扱うコンテンツに関して
 
----
+当サイトのコンテンツや情報において、可能な限り正確な情報を掲載するよう努めています。しかし、誤情報が入り込んだり、Power Automate は SaaS のため情報が古くなったりすることもあります。必ずしも正確性を保証するものではありません。また合法性や安全性なども保証しません。
 
-## About the project
+#### コンテンツの2次的利用
+当サイトのコンテンツを無断で2次的利用をすることは禁止しています。ご利用を希望される場合は Twitter にてご連絡ください。
 
-Just the Docs is &copy; 2017-{{ "now" | date: "%Y" }} by [Patrick Marsceill](http://patrickmarsceill.com).
+### 損害等の責任について
 
-### License
+当サイトに掲載された内容によって生じた損害等の一切の責任を負いかねますので、ご了承ください。 また当サイトからリンクやバナーなどによって他のサイトに移動された場合、移動先サイトで提供される情報、サービス等について一切の責任も負いません。 当サイトの保守、火災、停電、その他の自然災害、ウィルスや第三者の妨害等行為による不可抗力によって、当サイトによるサービスが停止したことに起因して利用者に生じた損害についても、何ら責任を負うものではありません。 当サイトを利用する場合は、自己責任で行う必要があります。
 
-Just the Docs is distributed by an [MIT license](https://github129.github.io/powerautomate-study//tree/master/LICENSE.txt).
+2020/06/30　策定
 
-### Contributing
-
-When contributing to this repository, please first discuss the change you wish to make via issue,
-email, or any other method with the owners of this repository before making a change. Read more about becoming a contributor in [our GitHub repo](https://github129.github.io/powerautomate-study/#contributing).
-
-#### Thank you to the contributors of Just the Docs!
-
-<ul class="list-style-none">
-{% for contributor in site.github.contributors %}
-  <li class="d-inline-block mr-1">
-     <a href="{{ contributor.html_url }}"><img src="{{ contributor.avatar_url }}" width="32" height="32" alt="{{ contributor.login }}"/></a>
-  </li>
-{% endfor %}
-</ul>
-
-### Code of Conduct
-
-Just the Docs is committed to fostering a welcoming community.
-
-[View our Code of Conduct](https://github129.github.io/powerautomate-study//tree/master/CODE_OF_CONDUCT.md) on our GitHub repository.
